@@ -81,6 +81,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+CSRF_TRUSTED_ORIGINS = ['https://8000-aaron080913-myblog-7lk0qrt8ep5.ws-eu110.gitpod.io']
 
 
 # Password validation
